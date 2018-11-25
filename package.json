@@ -1,5 +1,5 @@
 {
-  "name": "electron",
+  "name": "test-electron",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "MangliZeng <1195473786@qq.com>",
@@ -13,7 +13,7 @@
     "test": "npm run unit && npm run e2e",
     "build": "node build/build.js",
     "electron": "electron .",
-    "package": "electron-packager ./ dsk --platform=win32 --arch=x64 --out ./ "
+    "package": "electron-packager ./ dsk --arch=x64 --out ./ "
   },
   "dependencies": {
     "vue": "^2.5.2",

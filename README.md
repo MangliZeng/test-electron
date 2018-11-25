@@ -26,5 +26,9 @@ npm run e2e
 # run all tests
 npm test
 ```
+# package.json配置Mac系统
+"package": "electron-packager ./ dsk --arch=x64 --out ./ " 
+# package.json配置android系统
+"package": "electron-packager ./ dsk --platform=win32 --arch=x64 --out ./ " 
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
